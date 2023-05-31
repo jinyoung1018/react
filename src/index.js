@@ -7,6 +7,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Clock from './chapter_04/Clock';
 import CommentList from './chapter_05/CommentList';
+import NotificationList from './chapter_06/NotificationList';
 
 
 const root = createRoot(document.getElementById('root'));
@@ -27,7 +28,7 @@ const root = createRoot(document.getElementById('root'));
 
   root.render(
     <React.StrictMode>
-    <CommentList />
+    <NotificationList />
   </React.StrictMode>,
   document.getElementById('root')
   );
